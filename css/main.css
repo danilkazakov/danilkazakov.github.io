@@ -99,10 +99,10 @@ body,
 html { font-size: 16px; line-height: 1.618; }
 
 header, 
-main { margin-bottom: 25.888px; }
+main { margin-bottom: 24.888px; }
 
-header,
-footer { background-color: #f0f0f0; }
+header { border-bottom: 1px solid #80cbc4; }
+footer { border-top: 1px solid #80cbc4; }
 
 .container { width: 900px; margin: 0 auto; }
 

@@ -1,0 +1,14 @@
+html, body { font-family: 'PT Sans', Helvetica, Verdana, Segoe, "Gill Sans", "Gill Sans MT", Calibri, sans-serif !important; }
+@font-face {
+    font-family: 'PT Sans';
+    src: url('ptsans-400-normal.woff2') format('woff2'), url('ptsans-400-normal.woff') format('woff'), url('ptsans-400-normal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('ptsans-700-normal.woff2') format('woff2'), url('ptsans-700-normal.woff') format('woff'), url('ptsans-700-normal.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

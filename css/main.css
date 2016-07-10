@@ -101,8 +101,8 @@ html { font-size: 16px; line-height: 1.618; }
 header, 
 main { margin-bottom: 24.888px; }
 
-header { border-bottom: 1px solid #80cbc4; }
-footer { border-top: 1px solid #80cbc4; }
+header { border-bottom: 1px solid #e0e0e0; }
+footer { border-top: 1px solid #e0e0e0; }
 
 .container { width: 900px; margin: 0 auto; }
 
@@ -119,6 +119,10 @@ footer { border-top: 1px solid #80cbc4; }
 .sidebar { width: 33.195%; float: left; padding-right: 5%; }
 
 .section-heading { font-size: 25.888px; }
+
+.page-title { margin-bottom: 0; }
+
+.page-description { margin-top: -16px; margin-bottom: 25.888px; color: #651fff; }
 
 .sidebar > img { width: 196px; }
 

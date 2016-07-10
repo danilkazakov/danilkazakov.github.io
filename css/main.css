@@ -100,11 +100,19 @@ html { font-size: 16px; line-height: 1.618; }
 
 .container { width: 900px; margin: 0 auto; }
 
+.container::after { clear: both; content: " "; display: block; }
+
+.page-heading { float: left; }
+
+.contacts { float: right; }
+
 .hidden { display: none; }
 
-.main-content { width: 61.8046%; }
+.main-content { width: 61.8046%; float: right; }
 
 .sidebar { width: 38.195%; float: left; }
+
+.section-heading { font-size: 25.888px; }
 
 
 

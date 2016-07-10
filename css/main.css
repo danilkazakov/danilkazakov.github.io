@@ -95,8 +95,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body,
+html { font-size: 16px; line-height: 1.618; }
 
-
+.container { width: 900px; margin: 0 auto; }
 
 
 

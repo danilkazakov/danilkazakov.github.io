@@ -98,6 +98,12 @@ textarea {
 body,
 html { font-size: 16px; line-height: 1.618; }
 
+header, 
+main { margin-bottom: 25.888px; }
+
+header,
+footer { background-color: #f0f0f0; }
+
 .container { width: 900px; margin: 0 auto; }
 
 .container::after { clear: both; content: " "; display: block; }

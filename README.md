@@ -1,2 +1,1 @@
-# Моё резюме
-1
+# Данил Казаков, frontend UI/UX-designer

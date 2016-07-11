@@ -147,6 +147,8 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .skills-heading { display: none; }
 
+.skills-list { padding: 0; margin: 25.888px 0; list-style: none; }
+
 .skill { float: left; height: 150px; margin: 0 25.888px; position: relative; width: 90px; z-index: 10; }
 
 .skill-name { background-position: center center; background-repeat: no-repeat; background-size: contain; height: 105px; width: 74.5px; }

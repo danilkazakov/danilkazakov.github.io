@@ -163,9 +163,13 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .photo { background-image: url(/img/photo.jpg); background-position: center center; background-repeat: no-repeat; background-size: contain; border-radius: 8px; width: 299px; height: 299px; margin-top: 25.888px; }
 
-.sidebar .section-heading { color: #9575cd; font-size: 12px; letter-spacing: 0.05em; line-height: 25.888px; margin-bottom: 0; margin-top: 25.888px; text-transform: uppercase; }
+.sidebar .section-heading { color: #9575cd; font-size: 16px; letter-spacing: 0.05em; line-height: 25.888px; margin-bottom: 12.944px; margin-top: 38.832px; text-transform: uppercase; }
+
+.sidebar .section-name { margin-bottom: 12.944px; margin-top: 0; }
 
 .sidebar .section-description { margin-top: 0; color: #322D35; }
+
+.sidebar .education .section-description { color: #999; }
 
 .sidebar > img { width: 196px; }
 

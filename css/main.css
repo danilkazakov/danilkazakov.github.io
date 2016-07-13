@@ -155,7 +155,7 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .any.skill .skill-name { font-weight: 400; }
 
-.skill-description { margin-bottom: 25.888px; margin-top: 0; }
+.skill-description { margin-bottom: 25.888px; margin-top: 0; color: #666; }
 
 /*.skill { float: left; height: 150px; margin: 0 25.888px; position: relative; width: 90px; z-index: 10; }*/
 

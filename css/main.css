@@ -168,7 +168,7 @@ hidden-xs { display: none; }
 .illustrator.skill .skill-name::before { background-image: url(/img/icon-illustrator.png); }
 .indesign.skill .skill-name::before { background-image: url(/img/icon-indesign.png); }
 
-.content-section.tools { margin-bottom: 109.656px; margin-top: 109.656px; }
+.content-section.tools { background-color: #f0f0f0; margin-bottom: 109.656px; margin-top: 41.887px; padding: 25.888px 0 41.887px; }
 
 .content-section.tools .img-wrap { text-align: center; }
 

@@ -157,6 +157,20 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .skill-description { margin-bottom: 25.888px; margin-top: 0; color: #666; }
 
+.graphics .skill::after { clear: both; content: " "; display: block; }
+
+.graphics .skill { margin-bottom: 25.888px; min-height: 100px; }
+
+.graphics .skill-name::before { background-position: center center; background-repeat: no-repeat; background-size: contain; content: " "; display: block; height: 100px; width: 100px; float: left; margin-right: 16px; }
+
+.affinity-designer.skill .skill-name::before { background-image: url(/img/icon-affinity-designer.png); }
+
+.photoshop.skill .skill-name::before { background-image: url(/img/icon-photoshop.png); }
+.illustrator.skill .skill-name::before { background-image: url(/img/icon-illustrator.png); }
+.indesign.skill .skill-name::before { background-image: url(/img/icon-indesign.png); }
+
+.tools img { width: 100%; }
+
 /*.skill { float: left; height: 150px; margin: 0 25.888px; position: relative; width: 90px; z-index: 10; }*/
 
 /*.skill-name { background-position: center center; background-repeat: no-repeat; background-size: contain; height: 105px; width: 74.5px; }*/

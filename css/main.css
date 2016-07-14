@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 body,
-html { font-size: 16px; line-height: 1.618; }
+html { font-size: 16px; line-height: 1.618; overflow-x: hidden; }
 
 header, 
 main { margin-bottom: 25.888px; }
@@ -169,14 +169,16 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 .illustrator.skill .skill-name::before { background-image: url(/img/icon-illustrator.png); }
 .indesign.skill .skill-name::before { background-image: url(/img/icon-indesign.png); }
 
-.content-section.tools { margin-bottom: 109.656px; margin-top: 109.656px; }
+.content-section.tools { margin-bottom: 109.656px; margin-top: 109.656px; margin-left: -299px; }
 
-.tools img { width: 100%; }
+.content-section.tools .img-wrap { text-align: center; }
+
+.content-section.portfolio { margin-left: -299px; }
 
 .portfolio-item-logo { background-repeat: no-repeat; -webkit-background-size: contain;
 background-size: contain; background-position: center; }
 
-.krufimsk.portfolio-item-logo { background-image: url(/img/krufimsk-logo.svg); width: auto; height: auto; }
+.krufimsk .portfolio-item-logo { background-image: url(/img/krufimsk-logo.svg); width: 230px; height: 45px; }
 
 
 .photo { background-image: url(/img/photo.jpg); background-position: center center; background-repeat: no-repeat; background-size: contain; border-radius: 8px; width: 299px; height: 299px; margin-top: 25.888px; }

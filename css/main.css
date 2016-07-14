@@ -179,6 +179,8 @@ hidden-xs { display: none; }
 
 .portfolio-list { list-style: none; padding: 0; }
 
+.portfolio-item { margin-bottom: 109.656px; }
+
 .portfolio-item-logo { background-repeat: no-repeat; -webkit-background-size: contain;
 background-size: contain; background-position: center; }
 

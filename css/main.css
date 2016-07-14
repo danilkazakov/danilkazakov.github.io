@@ -105,6 +105,8 @@ header { background: #a334ff; background: linear-gradient(to right, #a334ff, #96
 
 footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; padding: 25.888px 0; }
 
+hidden-xs { display: none; }
+
 .container { width: 900px; margin: 0 auto; }
 
 .container::after { clear: both; content: " "; display: block; }
@@ -175,10 +177,14 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .content-section.portfolio { margin-left: -299px; }
 
+.portfolio-list { list-style: none; padding: 0; }
+
 .portfolio-item-logo { background-repeat: no-repeat; -webkit-background-size: contain;
 background-size: contain; background-position: center; }
 
 .krufimsk .portfolio-item-logo { background-image: url(/img/krufimsk-logo.svg); width: 230px; height: 45px; }
+
+.portfolio-item.krufimsk > img { margin-left: -205px; }
 
 
 .photo { background-image: url(/img/photo.jpg); background-position: center center; background-repeat: no-repeat; background-size: contain; border-radius: 8px; width: 299px; height: 299px; margin-top: 25.888px; }
@@ -193,6 +199,19 @@ background-size: contain; background-position: center; }
 
 .sidebar > img { width: 196px; }
 
+@media (min-width: 480px) {}
+@media (min-width: 768px) {
+  hidden-xs { display: block; }
+  hidden-sm { display: none; }
+}
+@media (min-width: 992px) {
+  hidden-sm { display: block; }
+  hidden-md { display: none; }
+}
+@media (min-width: 1200px) {
+  hidden-md { display: block; }
+  hidden-lg { display: none; }
+}
 
 /* ==========================================================================
    Helper classes

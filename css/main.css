@@ -112,7 +112,7 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .page-title { color: #fff; font-size: 18px; letter-spacing: .025em; margin-bottom: 0; margin-top: 12.994px; font-weight: 400; line-height: 25.888px; }
 
-.about-me-short { color: #fff; font-size: 14px; line-height: 16px; margin: 8px 0; padding: 0 25.888px; }
+.about-me-short { color: #fff; font-size: 14px; line-height: 16px; margin: 8px 0; padding: 0 25.888px; opacity: .8; }
 
 .page-description { margin-top: 0; margin-bottom: 0; color: #fff; letter-spacing: .0125em; font-size: 14px; line-height: 25.888px; }
 
@@ -150,6 +150,11 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 .any.skill { background-color: #9f34ff; color: #fff; display: inline-block; padding: 8px 12px; }
 
 .skill-name { font-weight: 700; }
+
+.frontend.skills-list .skill-name, 
+.programming.skills-list .skill-name,
+.frontend.skills-list .skill-gauge, 
+.programming.skills-list .skill-gauge { display: inline-block; }
 
 .any.skill .skill-name { font-weight: 400; }
 
@@ -212,7 +217,7 @@ background-size: contain; background-position: center; }
 
   .container { width: 900px; }
 
-  .page-heading { float: left; }
+  .page-heading { float: left; text-align: left; }
 
   .page-title { font-size: 41.887px; margin-top: 25.888px; font-weight: 700; }
 

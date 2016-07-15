@@ -95,42 +95,23 @@ textarea {
    Bootstrap helper classes
    ========================================================================== */
 
-.collapse {
-  display: none;
-}
-.collapse.in {
-  display: block;
-}
-tr.collapse.in {
-  display: table-row;
-}
-tbody.collapse.in {
-  display: table-row-group;
-}
+.collapse { display: none; }
+
+.collapse.in { display: block; }
+
 .collapsing {
   position: relative;
   height: 0;
   overflow: hidden;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);;
-       -o-transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);;
-          transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);;
+  -webkit-transition-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);;
+       -o-transition-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);;
+          transition-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);;
   -webkit-transition-duration: .225s;
        -o-transition-duration: .225s;
           transition-duration: .225s;
   -webkit-transition-property: height, visibility;
        -o-transition-property: height, visibility;
           transition-property: height, visibility;
-}
-.caret {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: 2px;
-  vertical-align: middle;
-  border-top: 4px dashed;
-  border-top: 4px solid \9;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
 }
 
 /* ==========================================================================
@@ -256,6 +237,8 @@ background-size: contain; background-position: center; }
   .hidden-md { display: none !important; }
 
   header { margin-bottom: 25.888px; }
+
+  .collapse { display: block; }
 
   .container { width: 900px; }
 

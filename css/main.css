@@ -164,17 +164,18 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .about { padding: 0 15px; }
 
+.section-heading { font-size: 25.888px; line-height: 25.888px; margin: 25.888px 0; }
+
+.section-heading a { color: inherit; text-decoration: none; position: relative; }
+
 .caret {
   -webkit-transition: transform .225s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
        -o-transition: transform .225s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
           transition: transform .225s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
-  display: inline-block;
-  transform: rotate(90deg);
+  display: inline-block; transform: rotate(90deg); font-size: 25.888px; line-height: 25.888px; position: absolute; right: 0;
 }
 
 .collapsed .caret { transform: rotate(0deg); }
-
-.section-heading { font-size: 25.888px; line-height: 25.888px; margin: 25.888px 0; }
 
 .skills-list { list-style: none; margin: 12.944px 0 25.888px; padding: 0; }
 

@@ -164,6 +164,16 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .about { padding: 0 15px; }
 
+.caret {
+  -webkit-transition: transform .225s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
+       -o-transition: transform .225s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
+          transition: transform .225s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
+  display: inline-block;
+  transform: rotate(90deg);
+}
+
+.caret.collapsed { transform: rotate(0deg); }
+
 .section-heading { font-size: 25.888px; line-height: 25.888px; margin: 25.888px 0; }
 
 .skills-list { list-style: none; margin: 12.944px 0 25.888px; padding: 0; }
@@ -231,14 +241,14 @@ background-size: contain; background-position: center; }
   .hidden-sm { display: none !important; }
 
   .container { width: 700px; }
+
+  .collapse { display: block; }
 }
 @media (min-width: 992px) {
   .hidden-sm { display: block !important; }
   .hidden-md { display: none !important; }
 
   header { margin-bottom: 25.888px; }
-
-  .collapse { display: block; }
 
   .container { width: 900px; }
 

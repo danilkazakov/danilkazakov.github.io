@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="css/main.css">
 		<!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
 	</head>
-	<body>
+	<body itemscope itemtype="http://schema.org/Person">
 		<!--[if lt IE 8]>
 			<p class="browserupgrade">Вы используете <strong>устаревший</strong> браузер. Пожалуйсьа <a href="http://browsehappy.com/">обновите свой браузер</a> для комфортного опыта просмотра интернет-страниц</p>
 		<![endif]-->
@@ -27,33 +27,62 @@
 		<header>
 			<div class="container">
 				<div class="page-heading">
-					<h1 class="page-title">Данил Казаков</h1>
-					<p class="page-description">CV: frontend, Ui/UX-design</p>
+					<div class="photo hidden-md hidden-lg"><!-- Фотография --></div>
+					<h1 itemprop="givenName" class="page-title">Данил Казаков</h1>
+					<p class="page-description">CV: <span itemprop="jobTitle">frontend, Ui/UX-design</span></p>
+					<meta itemprop="nationality" content="Russian">
+					<meta itemprop="birthDate" content="28 февраля 1986">
+					<meta itemprop="gender" content="male">
 				</div>
 				<div class="contacts">
 					<a target="_blank" class="contact-link vk" href="https://vk.com/taigadream"><div class="icon"><!--Значек--></div></a>
 					<a target="_blank" class="contact-link facebook" href="https://facebook.com/taigadream"><div class="icon"><!--Значек--></div></a>
 					<a target="_blank" class="contact-link twitter hidden" href="https://twitter.com/taigadream"><div class="icon"><!--Значек--></div></a>
-					<a class="contact-link email" href="mailto:danil.v.kazakov@gmail.com"><div class="icon"><!--Значек--></div></a>
-					<a class="contact-link phone hidden" href="tel:+79826424255"><div class="icon"><!--Значек--></div></a>
-					<a class="contact-link mobile" href="tel:+79826424255"><div class="icon"><!--Значек--></div></a>
+					<a itemprop="email" class="contact-link email" href="mailto:danil.v.kazakov@gmail.com"><div class="icon"><!--Значек--></div></a>
+					<a itemprop="telephone" class="contact-link phone hidden" href="tel:+79826424255"><div class="icon"><!--Значек--></div></a>
+					<a itemprop="telephone" class="contact-link mobile" href="tel:+79826424255"><div class="icon"><!--Значек--></div></a>
 					<a target="_blank" class="contact-link hh" href="#"><div class="icon"><!--Значек--></div></a>
 				</div>
 			</div>
 		</header>
 		<section class="content-section about clearfix">
 			<div class="container">
+				<div class="sidebar">
+					<div class="photo hidden-xs hidden-sm"><!-- Фотография --></div>
+					<section class="content-section about">
+						<h2 class="section-heading">Обо мне</h2>
+						<p class="section-description"></p>	
+					</section>
+					<section class="content-section education">
+						<h2 class="section-heading">Незаконченное высшее образование</h2>
+						<p class="section-name"><strong>2003-2006</strong> УГТУ-УПИ, Екатеринбург, инженер-дизайнер</p>
+						<p class="section-description">
+							УГТУ-УПИ (Уральский государственный технический университет уральского политехнического института) им. Кирова, сейчас УрФУ (Уральский федеральный университет) им. Б.Ельцина. Факультет гуманитарного образования, кафедра культурологии и дизайна, инженер-дизайнер, специализация: промышленный дизайн. 2003-2006, бросил учится, пошел работать
+						</p>	
+					</section>
+					<section class="content-section working-experience">
+						<h2 class="section-heading">Предыдущее место работы</h2>
+						<p class="section-name"><strong>март 2013 – июль 2016</strong> <a href="http://ksk66.ru">«Красноуфимск Онлайн»</a>, дизайнер</p>
+						<p class="section-description">Редизайн сайта, изготовление рекламных баннеров</p>
+					</section>
+					<section class="content-section about">
+						<h2 class="section-heading">Личное</h2>
+						<p class="section-description">Более подробно об увлечениях и прочаяя личная информация</p>	
+					</section>
+				</div>
 				<div class="skills">
 					<h2 class="section-heading">Навыки</h2>
 					<h3 class="skills-heading">Frontend</h3>
 					<ul class="frontend skills-list">
 						<li class="css skill">
 							<div class="skill-name">CSS</div>
+							<div class="skill-gauge">••••••••</div>
 							<div class="certificate"><!-- Сертификат --></div>
 							<p class="skill-description">Основной инструмент реализации дизайна</p>
 						</li>
 						<li class="html skill">
 							<div class="skill-name">HTML</div>
+							<div class="skill-gauge">•••••</div>
 							<p class="skill-description">Описание</p>
 						</li>
 						<li class="any skill"><div class="skill-name">Типографика</div></li>
@@ -66,18 +95,21 @@
 					<ul class="programming skills-list">
 						<li class="js skill">
 							<div class="skill-name">JavaScript</div>
+							<div class="skill-gauge">••</div>
 							<p class="skill-description">
 								Базовые знания. Хотелось бы работать с этим языком больше, но к сожалению почти не применяю, так как на предыдущем месте работы в этом нужды не было
 							</p>
 						</li>
 						<li class="jquery skill">
 							<div class="skill-name">jQuerry</div>
+							<div class="skill-gauge">••</div>
 							<p class="skill-description">
 								В основном использовался для простого взаимодействия, чаще всего это добавление/удаление классов HTML-эдементов
 							</p>
 						</li>
 						<li class="php skill">
 							<div class="skill-name">PHP</div>
+							<div class="skill-gauge">•</div>
 							<p class="skill-description">
 								Несложный backend в WordPress-темах
 							</p>
@@ -110,28 +142,6 @@
 							</p>
 						</li>
 					</ul>
-				</div>
-				<div class="sidebar">
-					<div class="photo"><!-- Фотография --></div>
-					<section class="content-section about">
-						<h2 class="section-heading">Обо мне</h2>
-						<p class="section-description">Дата рождения, небольшой абзац «обо мне и т.д.</p>	
-					</section>
-					<section class="content-section education">
-						<h2 class="section-heading">Незаконченное высшее образование</h2>
-						<p class="section-name"><strong>2003-2006</strong> УГТУ-УПИ, Екатеринбург, инженер-дизайнер</p>
-						<p class="section-description">
-							УГТУ-УПИ (Уральский государственный технический университет уральского политехнического института) им. Кирова, сейчас УрФУ (Уральский федеральный университет) им. Б.Ельцина. Факультет гуманитарного образования, кафедра культурологии и дизайна, инженер-дизайнер, специализация: промышленный дизайн. 2003-2006, бросил учится, пошел работать
-						</p>	
-					</section>
-					<section class="content-section working-experience">
-						<h2 class="section-heading">Предыдущее место работы</h2>
-						<p class="section-description">Описание</p>	
-					</section>
-					<section class="content-section about">
-						<h2 class="section-heading">Личное</h2>
-						<p class="section-description">Более подробно об увлечениях и прочаяя личная информация</p>	
-					</section>
 				</div>
 			</div>
 		</section>

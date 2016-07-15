@@ -172,7 +172,7 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
   transform: rotate(90deg);
 }
 
-.caret.collapsed { transform: rotate(0deg); }
+.collapsed .caret { transform: rotate(0deg); }
 
 .section-heading { font-size: 25.888px; line-height: 25.888px; margin: 25.888px 0; }
 
@@ -180,7 +180,7 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .skills-heading { margin-bottom: 0; }
 
-.any.skill { background-color: #9f34ff; color: #fff; display: inline-block; padding: 8px 12px; }
+.any.skill { background-color: #9f34ff; color: #fff; display: inline-block; padding: 8px 12px; margin-bottom: 4px; }
 
 .skill-name { font-weight: 700; }
 

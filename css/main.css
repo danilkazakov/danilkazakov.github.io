@@ -242,13 +242,15 @@ background-size: contain; background-position: center; }
 
   .container { width: 900px; }
 
-  .page-heading { float: left; text-align: left; }
+  .page-heading { float: left; text-align: left; padding-top: 0; }
 
   .page-title { font-size: 41.887px; margin-top: 25.888px; font-weight: 700; }
 
   .page-description { margin-top: -16px; margin-bottom: 41.887px; font-size: 16px; }
 
   .contacts { float: right; margin-top: 41.887px; }
+
+  .contact-link.mobile { display: inline-block !important; }
 
   .contact-link .icon { height: 51.776px; width: 51.776px; margin: 0 8px; }
 

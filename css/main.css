@@ -172,7 +172,7 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
   -webkit-transition: transform .225s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
        -o-transition: transform .225s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
           transition: transform .225s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
-  display: inline-block; transform: rotate(90deg); font-size: 25.888px; line-height: 25.888px; position: absolute; right: 0;
+  display: inline-block; transform: rotate(90deg); font-size: 25.888px; position: absolute; right: 0;
 }
 
 .collapsed .caret { transform: rotate(0deg); }
@@ -226,7 +226,9 @@ background-size: contain; background-position: center; }
 
 .photo { background-image: url(/img/photo.jpg); background-position: center center; background-repeat: no-repeat; background-size: contain; border-radius: 50%; width: 106.656px; height: 106.656px; margin: 0 auto; border: 3px solid #fff; }
 
-.sidebar .section-heading { color: #9575cd; font-size: 16px; letter-spacing: .05em; line-height: 25.888px; margin-bottom: 12.944px; margin-top: 12.944px; text-transform: uppercase; }
+.sidebar .content-section { border-bottom: 1px solid rgb(149, 117, 205) border-bottom: 1px solid rgba(149, 117, 205, 0.2); }
+
+.sidebar .section-heading { color: #9575cd; font-size: 16px; letter-spacing: .05em; line-height: 25.888px; margin: 0; padding-bottom: 12.944px; padding-top: 11.944px;text-transform: uppercase; }
 
 .sidebar .section-name { margin-bottom: 12.944px; margin-top: 0; }
 
@@ -239,6 +241,7 @@ background-size: contain; background-position: center; }
 @media (min-width: 480px) {}
 @media (min-width: 768px) {
   .hidden-xs { display: block !important; }
+  span.hidden-xs { display: inline-block !important; }
   .hidden-sm { display: none !important; }
 
   .container { width: 700px; }
@@ -247,6 +250,7 @@ background-size: contain; background-position: center; }
 }
 @media (min-width: 992px) {
   .hidden-sm { display: block !important; }
+  span.hidden-sm { display: inline-block !important; }
   .hidden-md { display: none !important; }
 
   header { margin-bottom: 25.888px; }
@@ -271,10 +275,11 @@ background-size: contain; background-position: center; }
 
   .photo { border-radius: 8px; width: 299px; height: 299px; margin-top: 25.888px; }
 
-  .sidebar .section-heading { margin-top: 38.832px; }
+  .sidebar .section-heading { margin-top: 38.832px; margin-bottom: 12.944px; }
 }
 @media (min-width: 1200px) {
   .hidden-md { display: block !important; }
+  span.hidden-md { display: inline-block !important; }
   .hidden-lg { display: none !important; }
 }
 

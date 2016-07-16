@@ -279,6 +279,12 @@ background-size: contain; background-position: center; }
 
   .php.skill::after { display: table; content: " "; clear: both; }
 
+  .tools { margin-top: 0; float: right; width: 61.8046%; }
+
+  .tools .section-heading { margin-bottom: 41.887px; }
+
+  .tools img { width: 100%; }
+
   .sidebar { width: 33.195%; float: left; padding-right: 5%; }
 
   .photo { border-radius: 8px; width: 299px; height: 299px; margin-top: 25.888px; margin-top: 1.618rem; }

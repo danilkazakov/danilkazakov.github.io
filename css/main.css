@@ -206,11 +206,11 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 .illustrator.skill .skill-name::before { background-image: url(/img/icon-illustrator.png); }
 .indesign.skill .skill-name::before { background-image: url(/img/icon-indesign.png); }
 
-.content-section.tools { margin-bottom: 109.656px; margin-top: 109.656px; }
+.tools { margin-bottom: 109.656px; margin-top: 109.656px; }
 
-.content-section.tools .img-wrap { text-align: center; }
+.tools .img-wrap { text-align: center; }
 
-.content-section.tools .section-heading { font-size: 41.887px; font-weight: 400; letter-spacing: 0.05em; margin-bottom: 67.773px; text-align: center; color: #444; }
+.tools .section-heading { font-size: 41.887px; font-weight: 400; letter-spacing: 0.05em; margin-bottom: 67.773px; text-align: center; color: #444; }
 
 .portfolio-list { list-style: none; padding: 0; }
 

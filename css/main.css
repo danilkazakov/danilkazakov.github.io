@@ -133,11 +133,11 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .page-heading { text-align: center; padding-top: 25.888px; }
 
-.page-title { color: #fff; font-size: 18px; letter-spacing: .025em; margin-bottom: 0; margin-top: 12.994px; font-weight: 400; line-height: 25.888px; }
+.page-title { color: #fff; font-size: 25.888px; letter-spacing: .05em; margin-bottom: 0; margin-top: 12.994px; line-height: 25.888px; }
 
 .about-me-short { color: #fff; font-size: 14px; line-height: 16px; margin: 8px 0; padding: 0 25.888px; opacity: .8; }
 
-.page-description { margin-top: 0; margin-bottom: 0; color: #fff; letter-spacing: .0125em; font-size: 14px; line-height: 25.888px; }
+.page-description { margin-top: 0; margin-bottom: 0; color: #fff; letter-spacing: .0125em; line-height: 25.888px; }
 
 .contacts { padding-bottom: 12.994px; padding-top: 12.994px; text-align: center; }
 
@@ -198,13 +198,13 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .graphics .skill { margin-bottom: 41.887px; }
 
-.graphics .skill-name::before { background-position: center center; background-repeat: no-repeat; background-size: contain; content: " "; display: block; height: 80px; width: 80px; float: left; margin-right: 16px; }
+.graphics .skill::before { background-position: center center; background-repeat: no-repeat; background-size: contain; content: " "; display: block; height: 80px; width: 80px; float: left; margin-right: 16px; }
 
-.affinity-designer.skill .skill-name::before { background-image: url(/img/icon-affinity-designer.png); }
+.affinity-designer.skill::before { background-image: url(/img/icon-affinity-designer.png); }
 
-.photoshop.skill .skill-name::before { background-image: url(/img/icon-photoshop.png); }
-.illustrator.skill .skill-name::before { background-image: url(/img/icon-illustrator.png); }
-.indesign.skill .skill-name::before { background-image: url(/img/icon-indesign.png); }
+.photoshop.skill::before { background-image: url(/img/icon-photoshop.png); }
+.illustrator.skill::before { background-image: url(/img/icon-illustrator.png); }
+.indesign.skill::before { background-image: url(/img/icon-indesign.png); }
 
 .content-section.tools { margin-bottom: 109.656px; margin-top: 109.656px; }
 
@@ -226,9 +226,9 @@ background-size: contain; background-position: center; }
 
 .photo { background-image: url(/img/photo.jpg); background-position: center center; background-repeat: no-repeat; background-size: contain; border-radius: 50%; width: 106.656px; height: 106.656px; margin: 0 auto; border: 3px solid #fff; }
 
-.sidebar .content-section { border-bottom: 1px solid rgb(149, 117, 205) border-bottom: 1px solid rgba(149, 117, 205, 0.2); }
+.sidebar .content-section { border-bottom: 1px solid rgb(149, 117, 205); border-bottom: 1px solid rgba(149, 117, 205, 0.2); }
 
-.sidebar .section-heading { color: #9575cd; font-size: 16px; letter-spacing: .05em; line-height: 25.888px; margin: 0; padding-bottom: 12.944px; padding-top: 11.944px;text-transform: uppercase; }
+.sidebar .section-heading { color: #9575cd; font-size: 16px; letter-spacing: .05em; line-height: 41.887px; margin: 0; padding-bottom: 12.944px; padding-top: 11.944px;text-transform: uppercase; }
 
 .sidebar .section-name { margin-bottom: 12.944px; margin-top: 0; }
 
@@ -259,9 +259,9 @@ background-size: contain; background-position: center; }
 
   .page-heading { float: left; text-align: left; }
 
-  .page-title { font-size: 41.887px; margin-top: 25.888px; font-weight: 700; }
+  .page-title { font-size: 41.887px; margin-top: 25.888px; }
 
-  .page-description { margin-bottom: 41.887px; font-size: 16px; }
+  .page-description { margin-bottom: 41.887px; }
 
   .contacts { float: right; margin-top: 41.887px; padding: 3px 0; }
 

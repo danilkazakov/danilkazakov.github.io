@@ -267,6 +267,8 @@ background-size: contain; background-position: center; }
 
 .sidebar > img { width: 196px; }
 
+footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12.944px 0 0; margin: .809rem 0 0; text-align: center; }
+
 @media (min-width: 480px) {}
 @media (min-width: 768px) {
   .hidden-xs { display: block !important; }

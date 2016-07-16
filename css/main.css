@@ -194,17 +194,17 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .skill-description { margin-bottom: 25.888px; margin-top: 0; color: #666; }
 
-.graphics .skill::after { clear: both; content: " "; display: block; }
+.graphics::after { clear: both; content: " "; display: block; }
 
-.graphics .skill { margin-bottom: 41.887px; }
+.graphics .skill { float: left; width: 25%; text-align: center; }
 
-.graphics .skill::before { background-position: center center; background-repeat: no-repeat; background-size: contain; content: " "; display: block; height: 80px; width: 80px; float: left; margin-right: 16px; }
+.graphics .skill-name::before { background-position: center center; background-repeat: no-repeat; background-size: contain; content: " "; display: block; height: 80px; width: 80px; margin: 0 auto; }
 
-.affinity-designer.skill::before { background-image: url(/img/icon-affinity-designer.png); }
+.affinity-designer.skill .skill-name::before { background-image: url(/img/icon-affinity-designer.png); }
 
-.photoshop.skill::before { background-image: url(/img/icon-photoshop.png); }
-.illustrator.skill::before { background-image: url(/img/icon-illustrator.png); }
-.indesign.skill::before { background-image: url(/img/icon-indesign.png); }
+.photoshop.skill .skill-name::before { background-image: url(/img/icon-photoshop.png); }
+.illustrator.skill .skill-name::before { background-image: url(/img/icon-illustrator.png); }
+.indesign.skill .skill-name::before { background-image: url(/img/icon-indesign.png); }
 
 .content-section.tools { margin-bottom: 109.656px; margin-top: 109.656px; }
 
@@ -271,11 +271,21 @@ background-size: contain; background-position: center; }
 
   .skills { width: 61.8046%; float: right; }
 
+  .html.skill::after { clear: both; content: " "; display: table; }
+
+  .css.skill, .html.skill { display: inline-block; float: left; height: 130px; width: 49.5%; }
+
+  .programming .skill { float: left; height: 2.618em; width: 33.33%; }
+
+  .php.skill::after { display: table; content: " "; clear: both; }
+
   .sidebar { width: 33.195%; float: left; padding-right: 5%; }
 
-  .photo { border-radius: 8px; width: 299px; height: 299px; margin-top: 25.888px; }
+  .photo { border-radius: 8px; width: 299px; height: 299px; margin-top: 25.888px; margin-top: 1.618rem; }
 
-  .sidebar .section-heading { margin-top: 38.832px; margin-bottom: 12.944px; }
+  .sidebar .content-section { border-bottom: none; }
+
+  .sidebar .section-heading { margin-top: 38.832px; margin-bottom: 12.944px; line-height: 25.888px; line-height: 1.618rem; }
 }
 @media (min-width: 1200px) {
   .hidden-md { display: block !important; }

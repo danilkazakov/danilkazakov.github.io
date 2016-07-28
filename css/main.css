@@ -298,7 +298,27 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
 
   .content-section.skills { margin-top: 67.773px; margin-top: 4.236rem; }
 
+  .content-section.tools,
   .content-section.portfolio { width: 700px; }
+
+  .programming .skill { margin: 1.618rem 0; }
+
+  .skills-heading { font-size: 25.888px; font-size: 1.618rem; font-weight: 400; margin: 67.773px 0 41.887px; margin: 4.236rem 0 2.618rem; }
+
+  .skill-name { font-size: 25.888px; font-size: 1.618rem; font-weight: 400; }
+
+  .skill-gauge { height: 27px; width: 280px; }
+
+  .html .skill-gauge { background-position: -62px center; }
+
+  .jquery .skill-gauge,
+  .js .skill-gauge { background-position: -124.5px center; }
+
+  .php .skill-gauge { background-position: -156px center; }
+
+  .any.skill .skill-name { font-size: 16px; }
+
+  .tools .section-heading { margin-top: 41.887px; margin-top: 2.618rem; }
 
   .portfolio .stuff img,
   .tools img { width: auto; }

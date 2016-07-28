@@ -200,11 +200,16 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .html .skill-gauge { background-position: -39px center; }
 
+.jquery .skill-gauge,
+.js .skill-gauge { background-position: -78.5px center; }
+
+.php .skill-gauge { background-position: -98px center; }
+
 .any.skill .skill-name { font-weight: 400; width: auto; margin: 0; }
 
 .skill-description { margin-bottom: 25.888px; margin-bottom: 1.618rem; margin-top: 0; color: #666; }
 
-.programming .skill { height: 41.887px; height: 2.618rem; width: 32%; display: inline-block; }
+.programming .skill { height: 41.887px; height: 2.618rem; }
 
 .graphics::after { clear: both; content: " "; display: block; }
 

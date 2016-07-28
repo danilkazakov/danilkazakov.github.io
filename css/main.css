@@ -194,6 +194,10 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 .frontend.skills-list .skill-gauge, 
 .programming.skills-list .skill-gauge { display: inline-block; }
 
+.skill-gauge { background-position: right center; background-repeat: no-repeat; background-size: cover; }
+
+.css .skill-gauge { background-image: url("/img/gauge.png"); width: 46%; height: 22px; }
+
 .any.skill .skill-name { font-weight: 400; width: auto; margin: 0; }
 
 .skill-description { margin-bottom: 25.888px; margin-bottom: 1.618rem; margin-top: 0; color: #666; }

@@ -194,9 +194,11 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 .frontend.skills-list .skill-gauge, 
 .programming.skills-list .skill-gauge { display: inline-block; }
 
-.skill-gauge { background-position: right center; background-repeat: no-repeat; background-size: cover; }
+.skill-gauge { background-repeat: no-repeat; background-size: cover; background-image: url("/img/gauge.png"); height: 17px; position: relative; top: 2px; width: 53.8%; }
 
-.css .skill-gauge { background-image: url("/img/gauge.png"); width: 46%; height: 22px; }
+.css .skill-gauge { background-position: left center; }
+
+.html .skill-gauge { background-position: -39px center; }
 
 .any.skill .skill-name { font-weight: 400; width: auto; margin: 0; }
 

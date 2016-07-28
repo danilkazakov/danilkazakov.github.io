@@ -123,7 +123,7 @@ html { font-size: 16px; line-height: 25.888px; line-height: 1.618rem; overflow-x
 
 header { background: #a334ff; background: linear-gradient(to right, #a334ff, #9633ff); margin-bottom: 0; }
 
-footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; padding: 25.888px 0; padding: 1.618rem 0; }
+footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; padding: 25.888px 0; padding: 1.618rem 0; margin-bottom: -25.888px; margin-bottom: -1.618rem; }
 
 .hidden-xs { display: none !important; }
 
@@ -187,24 +187,24 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .any.skill { background-color: #9f34ff; color: #fff; display: inline-block; padding: 8px 12px; padding: .5rem .75rem; margin-bottom: 4px; margin-bottom: .25rem; }
 
-.skill-name { font-weight: 700; }
+.skill-name { font-weight: 700; margin-right: 10px; text-align: right; width: 27%; }
 
 .frontend.skills-list .skill-name, 
 .programming.skills-list .skill-name,
 .frontend.skills-list .skill-gauge, 
 .programming.skills-list .skill-gauge { display: inline-block; }
 
-.any.skill .skill-name { font-weight: 400; }
+.any.skill .skill-name { font-weight: 400; width: auto; margin: 0; }
 
 .skill-description { margin-bottom: 25.888px; margin-bottom: 1.618rem; margin-top: 0; color: #666; }
 
-.programming .skill { float: left; height: 41.887px; height: 2.618rem; width: 33.33%; }
+.programming .skill { height: 41.887px; height: 2.618rem; width: 32%; display: inline-block; }
 
 .graphics::after { clear: both; content: " "; display: block; }
 
 .graphics .skill { float: left; width: 25%; text-align: center; }
 
-.graphics .skill-name { font-size: 14px; font-weight: 400; line-height: 1rem; }
+.graphics .skill-name { font-size: 14px; font-weight: 400; line-height: 1rem; text-align: center; width: auto; }
 
 .graphics .skill-name::before { background-position: center center; background-repeat: no-repeat; background-size: contain; content: " "; display: block; height: 67.773px; height: 4.236rem; width: 67.773px; width: 4.236rem; margin: 0 auto 9.888px; margin: 0 auto .618rem; }
 

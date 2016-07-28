@@ -207,7 +207,7 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .any.skill .skill-name { font-weight: 400; width: auto; margin: 0; }
 
-.skill-description { margin-bottom: 25.888px; margin-bottom: 1.618rem; margin-top: 0; color: #666; }
+.skill-description { margin-bottom: 25.888px; margin-bottom: 1.618rem; margin-top: 12.944px; margin-top: .809rem; color: #666; }
 
 .css .skill-description,
 .html .skill-description { text-align: center; }
@@ -239,6 +239,9 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 .portfolio-list { list-style: none; padding: 0; }
 
 .portfolio-item { margin-bottom: 41.887px; margin-bottom: 2.618rem; }
+
+.section-name > a
+.portfolio-item-desctiption > a {  }
 
 .portfolio-item-logo { background-repeat: no-repeat; -webkit-background-size: contain;
 background-size: contain; background-position: center; }
@@ -306,11 +309,15 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
 
   .programming .skill { margin: 1.618rem 0; }
 
+  .sidebar .section-heading { color: #9834ff; font-size: 25.888px; font-size: 1.618rem; font-weight: 400; }
+
+  .skills .section-heading { margin-bottom: -25.888px; margin-bottom: -1.618rem; }
+
   .skills-heading { font-size: 25.888px; font-size: 1.618rem; font-weight: 400; margin: 67.773px 0 41.887px; margin: 4.236rem 0 2.618rem; }
 
-  .skill-name { font-size: 25.888px; font-size: 1.618rem; font-weight: 400; }
+  .skill-name { font-size: 19.488px; font-size: 1.218rem; font-weight: 400; }
 
-  .skill-gauge { height: 27px; width: 280px; }
+  .skill-gauge { height: 27px; width: 280px; top: 6px; }
 
   .html .skill-gauge { background-position: -62px center; }
 

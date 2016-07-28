@@ -296,9 +296,21 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
 
   .content-section.education { margin-top: 41.887px; margin-top: 2.618rem; }
 
-  .content-section.skills { margin-top: 4.236rem; margin-top: 67.773px; }
+  .content-section.skills { margin-top: 67.773px; margin-top: 4.236rem; }
 
   .content-section.portfolio { width: 700px; }
+
+  .portfolio .stuff img,
+  .tools img { width: auto; }
+
+  .portfolio .section-heading { margin: 67.773px 0; margin: 4.236rem 0; }
+
+  footer .container { margin-top: 12.944px; margin-top: .809rem; }
+
+  footer h3 { float: left; line-height: 41.887px; line-height: 2.618rem; }
+
+  footer .contacts { float: right; }
+
 }
 @media (min-width: 992px) {
   .hidden-sm { display: block !important; }

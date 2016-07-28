@@ -25,12 +25,14 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #9D34FF;
+    color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #9D34FF;
+    color: #fff;
     text-shadow: none;
 }
 
@@ -391,7 +393,9 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
 
   .html.skill::after { clear: both; content: " "; display: table; }
 
-  .css.skill, .html.skill { display: inline-block; float: left; height: 130px; width: 49.5%; }
+  .frontend.skills-list { text-align: center; }
+
+  .css.skill, .html.skill { text-align: left; }
 
   .php.skill::after { display: table; content: " "; clear: both; }
 
@@ -409,6 +413,8 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
   .hidden-md { display: block !important; }
   span.hidden-md { display: inline-block !important; }
   .hidden-lg { display: none !important; }
+
+  .portfolio-item.krufimsk img { margin: 25.888px 177.424px; margin: 1.618rem -11.089rem; width: auto; }
 }
 
 /* ==========================================================================

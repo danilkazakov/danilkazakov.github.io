@@ -383,6 +383,8 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
 
   .sidebar .section-heading { margin: 38.832px 0 12.944px; margin: 2.427rem 0 .809rem; padding: 0; line-height: 1.618; text-align: left; font-weight: 700; font-size: 16px; }
 
+  .content-section.skills { margin-top: 0; }
+
   .content-section.tools { width: 900px; }
 
   .content-section.portfolio { width: auto; }

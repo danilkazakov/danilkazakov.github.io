@@ -194,7 +194,7 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 .frontend.skills-list .skill-gauge, 
 .programming.skills-list .skill-gauge { display: inline-block; }
 
-.skill-gauge { background-repeat: no-repeat; background-size: cover; background-image: url("/img/gauge.png"); height: 17px; position: relative; top: 2px; width: 53.8%; }
+.skill-gauge { background-repeat: no-repeat; background-size: cover; background-image: url("/img/gauge.png"); height: 17px; position: relative; top: 2px; width: 176px; }
 
 .css .skill-gauge { background-position: left center; }
 
@@ -289,6 +289,16 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
   .container { width: 700px; }
 
   .collapse { display: block; }
+
+  .content-section { margin: 0 auto; width: 530px; } 
+
+  .sidebar .content-section { border-bottom: none; }
+
+  .content-section.education { margin-top: 41.887px; margin-top: 2.618rem; }
+
+  .content-section.skills { margin-top: 4.236rem; margin-top: 67.773px; }
+
+  .content-section.portfolio { width: 700px; }
 }
 @media (min-width: 992px) {
   .hidden-sm { display: block !important; }

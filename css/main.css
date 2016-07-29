@@ -373,6 +373,11 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
   span.hidden-sm { display: inline-block !important; }
   .hidden-md { display: none !important; }
 
+  html, body { font-size: 18px; }
+
+  .sidebar .section-name,
+  .sidebar .section-description { font-size: 16px; }
+
   header { margin-bottom: 25.888px; margin-bottom: 1.618rem; }
 
   .container { width: 900px; }

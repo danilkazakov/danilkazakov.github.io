@@ -191,6 +191,8 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .skill-name { font-weight: 700; margin-right: 10px; text-align: right; width: 27%; }
 
+.certificate { line-height: 2.618rem; text-align: center; }
+
 .frontend.skills-list .skill-name, 
 .programming.skills-list .skill-name,
 .frontend.skills-list .skill-gauge, 
@@ -240,8 +242,9 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .portfolio-list { list-style: none; padding: 0; }
 
-.portfolio-item { margin-bottom: 41.887px; margin-bottom: 2.618rem; }
+.portfolio-item { margin-bottom: 67.773px; margin-bottom: 4.236rem; }
 
+.certificate > a,
 .section-name > a,
 .portfolio-item-desctiption > a { 
   border-bottom: 1px solid #9f34ff; 
@@ -252,6 +255,8 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
   transition: border-color .15s cubic-bezier(0.4, 0.0, 0.2, 1) 0s; 
 }
 
+.certificate > a:hover,
+.certificate > a:focus,
 .section-name > a:hover,
 .section-name > a:focus,
 .portfolio-item-desctiption > a:hover,
@@ -280,6 +285,12 @@ background-size: contain; background-position: center; }
 
 .portfolio-item > *:first-child { display: inline-block; margin: 0 auto; }
 
+.portfolio-item-name { font-size: 25.888px; font-size: 1.618rem; letter-spacing: .4px; letter-spacing: .025rem; line-height: 41.887px; line-height: 2.618rem; }
+
+.portfolio-item.ksk66 img { display: block; margin: 25.888px 0 41.887px; margin: 1.618rem 0 2.618rem; width: 100%; }
+
+.portfolio-item.ksk66 img[src*="responsive-icon"] { margin: auto; width: 300px; }
+
 .portfolio-item.krufimsk img { width: 100%; margin-top: 25.888px; margin-top: 1.618rem; }
 
 .portfolio .stuff img { margin-bottom: 25.888px; margin-bottom: 1.618rem; width: 100%; }
@@ -300,7 +311,6 @@ background-size: contain; background-position: center; }
 
 footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12.944px 0 0; margin: .809rem 0 0; text-align: center; }
 
-@media (min-width: 480px) {}
 @media (min-width: 768px) {
   .hidden-xs { display: block !important; }
   span.hidden-xs { display: inline-block !important; }
@@ -391,6 +401,10 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
 
   .portfolio-item-desctiption { padding: 0 150px; }
 
+  .portfolio-item.ksk66 img { margin-left: -50px; width: 1000px; }
+
+  .portfolio-item.ksk66 img[src*="responsive-icon"] { width: auto; }
+
   .skills { width: 61.8046%; float: right; }
 
   .html.skill::after { clear: both; content: " "; display: table; }
@@ -415,6 +429,8 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
   .hidden-md { display: block !important; }
   span.hidden-md { display: inline-block !important; }
   .hidden-lg { display: none !important; }
+
+  .portfolio-item.ksk66 > img { margin-left: -125px; width: 1150px; }
 
   .portfolio-item.krufimsk img { margin: 25.888px 177.424px; margin: 1.618rem -11.089rem; width: auto; }
 }

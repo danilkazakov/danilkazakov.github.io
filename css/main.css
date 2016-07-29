@@ -244,6 +244,8 @@ footer { background-color: #4a484b; color: #fff; letter-spacing: 0.025em; paddin
 
 .portfolio-item { margin-bottom: 67.773px; margin-bottom: 4.236rem; }
 
+.portfolio-item.krufimsk { margin-top: 109.656px; margin-top: 6.854rem; } 
+
 .certificate > a,
 .section-name > a,
 .portfolio-item-desctiption > a { 
@@ -324,7 +326,7 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
 
   .sidebar .content-section { border-bottom: none; }
 
-  .content-section.education { margin-top: 41.887px; margin-top: 2.618rem; }
+  .content-section.education { margin-top: 41.887px; margin-top: 2.618rem; margin-bottom: 41.887px; margin-bottom: 2.618rem; }
 
   .content-section.skills { margin-top: 67.773px; margin-top: 4.236rem; }
 

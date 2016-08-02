@@ -3,35 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Тестовое задание для Яндекса</title>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="fonts/ptsans.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-	<div class="yad">
-		<div class="yad-logo"><a href="#">Яндекс.Директ</a></div>
-		<div class="yad-wrap">
-			<figure class="yad-image-wrap">
-				<img class="yad-image" src="#" alt="Картинка">
-			</figure>
-			<div class="yad-content">
-				<h1 class="yad-title">
-					<a class="yad-url" href="#">Заголовок рекламного блока</a>
-				</h1>
-				<div class="yad-domain">site-address.ru</div>
-				<div class="yad-body">Текст рекламного блока</div>
-				<div class="yad-sitelinks">
-					<a href="#" class="yad-sitelinks__link">Ссылка #1</a>
-					<a href="#" class="yad-sitelinks__link">Ссылка #2</a>
-					<a href="#" class="yad-sitelinks__link">Ссылка #3</a>
-					<a href="#" class="yad-sitelinks__link">Ссылка #4</a>
-				</div>
-				<div class="yad-alert">18+</div>
-			</div>
-		</div>
-	</div>
-
-	<script src="yandex/ads.js"></script>
-	<script>
-		console.log(ads.length);
-	</script>
+<body class="yandex-test">
+	<div class="content"></div>
+	<!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
+	<script src="js/vendor/jquery-1.12.0.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+	<script src="js/ads.js"></script>
+	<script src="js/yandex.js"></script>
 </body>
 </html>

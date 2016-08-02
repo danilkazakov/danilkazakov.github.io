@@ -446,6 +446,112 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
 }
 
 /* ==========================================================================
+   Стили для тестового задания компании «БизнесАвтоматика»
+   ========================================================================== */
+
+body.automatica section.book-search { margin: 0 auto; width: 100%; }
+
+body.automatica section.book-search header { position: relative; background: tomato; }
+
+body.automatica .book-search__title { font-size: 25.888px; font-size: 1.618rem; font-weight: 400; margin: 0; padding: 12.944px; padding: .809rem; line-height: 25.888px; line-height: 1.618rem; }
+
+body.automatica section.book-search header button.close { background-color: transparent; border: none; font-size: 25.888px; font-size: 1.618rem; line-height: 25.888px; line-height: 1.618rem; padding: 0; position: absolute; right: 12.944px; right: .809rem; top: 10px; }
+
+body.automatica section.book-search header button.close:hover,
+body.automatica section.book-search header button.close:focus { opacity: .5; }
+
+body.automatica .search-wrap { margin: 25.888px 0; margin: 1.618rem 0; text-align: center; }
+
+body.automatica form.search { display: inline-block; margin: 0; padding: 0; position: relative; }
+
+body.automatica .search__input { padding: 0 10px; line-height: 41.887px; line-height: 2.618rem; border: 1px solid #ccc; }
+
+body.automatica .search__submit { background-color: transparent; border: none; position: absolute; top: 1px; right: 1px; padding: 0; height: 41.887px; height: 2.618rem; width: 41.887px; width: 2.618rem; text-align: center; }
+
+body.automatica .search__icon::before { background-image: url("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjUgMjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0xNy4zMDggMTAuNTc3YzAgMy43MTEtMy4wMiA2LjczMS02LjczMSA2LjczMXMtNi43MzEtMy4wMi02LjczMS02LjczMSAzLjAyLTYuNzMxIDYuNzMxLTYuNzMxIDYuNzMxIDMuMDIgNi43MzEgNi43MzF6bTcuNjkyIDEyLjVjMC0uNTExLS4yMS0xLjAwNy0uNTU2LTEuMzUybC01LjE1My01LjE1M2MxLjIxNy0xLjc1OCAxLjg2My0zLjg2MiAxLjg2My01Ljk5NSAwLTUuODQ0LTQuNzMzLTEwLjU3Ny0xMC41NzctMTAuNTc3cy0xMC41NzcgNC43MzMtMTAuNTc3IDEwLjU3NyA0LjczMyAxMC41NzcgMTAuNTc3IDEwLjU3N2MyLjEzMyAwIDQuMjM3LS42NDYgNS45OTUtMS44NjNsNS4xNTMgNS4xMzhjLjM0NS4zNjEuODQxLjU3MSAxLjM1Mi41NzEgMS4wNTIgMCAxLjkyMy0uODcxIDEuOTIzLTEuOTIzeiIvPjwvc3ZnPg=="); content: " "; display: inline-block; height: 15px; width: 15px; position: relative; top: 1px; }
+
+body.automatica .search__submit:hover .search__icon::before,
+body.automatica .search__submit:focus .search__icon::before { opacity: .5; }
+
+body.automatica .content { padding: 0 12.944px; padding: 0 .809rem; }
+
+body.automatica ul.books-list { list-style: none; margin: 0; padding: 0; }
+
+body.automatica ul.books-list::after { content: " "; display: block; clear: both; }
+
+body.automatica li.books-list__item { width: 40%; float: left; padding: 0 5%; margin-bottom: 41.887px; margin-bottom: 2.618rem; }
+
+body.automatica figure.book__image-wrap { margin: 0; }
+
+body.automatica span.book__rating-stars { margin: 0 auto; }
+
+body.automatica .book__rating { margin-bottom: 12.994px; margin-bottom: .809rem; }
+
+body.automatica span.book__rating-stars,
+body.automatica span.book__rating-stars span { display: block; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAABPElEQVR4Ac3UNVYDURTGcdzK7AC3DndYAMvAKqZBKlLR4u5Q4e406DZwGmwD2OOfcy4Ol4eTc36x9+43k2TyeWk3U+2Vg2x10zsBy1j67HASjEj8TMAEjBj/6HA8zDNxb232QRjyUY4+7LwSsCNr5bI3DD6egFaYT2r1BPhh+BPDQ/C9+xj+mIaxNAX/599FEFYshpcR+NYXGmYREKb9fHkWAblaQIlFQLEWUA8jrtAhrmBEnRawCIMxRD96PxrjMFjQAgaQpqynY+Dxe/+/Dw5x9Ok+QCmcz/bBCULEyWf6wHm0x7HpgzXUohDJrxwoWdZqsfZaH8wiwOLjBWDurT4YgZ8y7IdRtQ/QrAQ02/TBkRJwZNMHm8r6lk0fdMlzF9zCJe912/RBFSpxjg5xhgq4bfrgUumDy2/vg1t/bxb6JViWNAAAAABJRU5ErkJggg==) 0 -16px repeat-x; width: 80px; height: 16px; }
+
+body.automatica span.book__rating-stars span { background-position: 0 0; }
+
+body.automatica .book__author { display: block; font-size: 14px; line-height: 16px; line-height: 1rem; margin: 9.888px 0; margin: .618rem 0 0; color: #666; }
+
+body.automatica .book__title { display: block; line-height: 16px; line-height: 1rem; }
+
+body.automatica .book__genres { display: block; }
+
+body.automatica .book__genre { font-size: 12px; color: #666; margin-right: 4px; text-decoration: none; border-bottom: 1px solid #ccc; }
+
+body.automatica .book__genre:hover,
+body.automatica .book__genre:focus { border-bottom-color: transparent; color: #333; }
+
+@media (min-width: 480px) {
+  body.automatica .content { width: 450px; margin: 0 auto; }
+
+  body.automatica li.books-list__item { width: 25.33%; padding: 0 4%; }
+}
+
+@media (min-width: 768px) {
+  body.automatica section.book-search { border: 1px solid tomato; width: 500px; margin: 41.887px auto; margin: 2.618rem auto; box-shadow: 0 7px 11px #eae2d6; }
+}
+
+@media (min-width: 992px) {
+  body.automatica section.book-search { width: 640px; }
+
+  body.automatica .content { width: 600px; }
+
+  body.automatica li.books-list__item { padding: 0 2%; width: 21%; }
+}
+
+/* ==========================================================================
+   Стили для тестового задания «Яндекса»
+   ========================================================================== */
+
+body.yandex-test .content { margin-top: 36px; }
+
+body.yandex-test .yad { width: 726px; height: 88px; position: relative; margin: 0 auto 18px; overflow: hidden; border: 1px solid tomato; }
+
+body.yandex-test .yad-logo { position: absolute; font-size: 12px; top: -10px; }
+
+body.yandex-test .yad-wrap::after { display: block; content: " "; clear: both; }
+
+body.yandex-test .yad-image-wrap { width: 90px; min-height: 90px; overflow: hidden; margin: 0; float: left; background-color: tomato; }
+
+body.yandex-test .yad-content { float: left; margin-left: 10px; }
+
+body.yandex-test .yad-title { font-size: 16px; margin: 0; line-height: 18px; font-weight: 400; }
+
+body.yandex-test .yad-title a.yad-url { text-decoration: none; color: tomato; }
+
+body.yandex-test .yad-domain { color: maroon; font-size: 16px; font-weight: 600; letter-spacing: .025em; line-height: 16px; }
+
+.yad-body { color: #222; font-size: 14px; line-height: 16px; }
+
+body.yandex-test .yad-sitelinks { font-size: 14px; line-height: 14px; }
+
+body.yandex-test .yad-sitelinks__link { border-bottom: 1px solid #ffbcae; color: tomato; margin-right: 5px; text-decoration: none; }
+
+body.yandex-test .yad-warning { border: 1px solid #ddd; color: #888; display: inline-block; font-size: 10px; line-height: 12px; padding: 0 3px; }
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 

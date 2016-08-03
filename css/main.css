@@ -542,7 +542,11 @@ body.yandex-test .yad-image-wrap { width: 90px; height: 88px; margin: 0; vertica
 
 body.yandex-test .yad-image-wrap:empty { display: none; }
 
-body.yandex-test .yad-image-wrap a.yad-url { display: table-cell; vertical-align: middle; height: 88px; width: 90px; transition-property: opacity; }
+body.yandex-test .yad-image-wrap a.yad-url { display: table-cell; vertical-align: middle; height: 88px; width: 90px; 
+  -webkit-transition-property: opacity; 
+       -o-transition-property: opacity; 
+          transition-property: opacity; 
+}
 
 body.yandex-test .yad-image-wrap a.yad-url:hover,
 body.yandex-test .yad-image-wrap a.yad-url:focus { opacity: .5; }
@@ -550,8 +554,12 @@ body.yandex-test .yad-image-wrap a.yad-url:focus { opacity: .5; }
 body.yandex-test .yad-image-wrap a.yad-url,
 body.yandex-test .yad-title a.yad-url,
 body.yandex-test .yad-sitelinks__link {
-  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); 
-  transition-duration: .15s;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); 
+       -o-transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); 
+          transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); 
+  -webkit-transition-duration: .15s;
+       -o-transition-duration: .15s;
+          transition-duration: .15s;
 }
 
 body.yandex-test .yad-image { max-height: 85%; width: auto; }
@@ -573,7 +581,11 @@ body.yandex-test .yad-image-wrap:empty + .yad-content .yad-title { font-size: 18
 body.yandex-test .yad-title a.yad-url { text-decoration: none; color: tomato; border-bottom: 1px solid #ff9c9c; }
 
 body.yandex-test .yad-title a.yad-url,
-body.yandex-test .yad-sitelinks__link { transition-property: border-color, color; }
+body.yandex-test .yad-sitelinks__link { 
+  -webkit-transition-property: border-color, color; 
+       -o-transition-property: border-color, color; 
+          transition-property: border-color, color; 
+}
 
 body.yandex-test .yad-title a.yad-url:hover,
 body.yandex-test .yad-title a.yad-url:focus,
@@ -582,7 +594,7 @@ body.yandex-test .yad-sitelinks__link:focus { border-color: transparent; color: 
 
 body.yandex-test .yad-domain::before { content: " "; display: inline-block; width: 14px; }
 
-body.yandex-test .yad-domain { color: #18c16a; font-size: 16px; letter-spacing: .025em; line-height: 16px; display: inline-block; vertical-align: middle; }
+body.yandex-test .yad-domain { color: #1ca24b; font-size: 16px; letter-spacing: .025em; line-height: 16px; display: inline-block; vertical-align: middle; font-weight: bold; }
 
 body.yandex-test .yad-body { color: #363537; font-size: 14px; line-height: 14px; }
 

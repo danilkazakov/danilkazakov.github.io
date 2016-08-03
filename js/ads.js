@@ -92,6 +92,28 @@ var ads = [{
     ]
 }, {
     url: "",
+    title: "Нож «Невидимка» скрытого ношения.",
+    body: "4 в 1 = Нож, ремень, пилка, открывалка. Кардшарп в подарок. Закажите!",
+    domain: "hit-prodazh.net",
+    workingTime: "пн-вс 11:00-20:00",
+    telNum: "+7 (909) 920-28-28",
+    age: "18+",
+    warning: "Конструктивно сходные с оружием изделия",
+    sitelinks: [
+        { title: "Для туризма", url: "" },
+        { title: "Для рыбалки", url: "" },
+        { title: "Для самообороны", url: "" },
+        { title: "Для выживания", url: "" }
+    ],
+    images: [
+        ["//avatars-fast.yandex.net/get-direct/_DwrSiAYqNSPYmd-dl5hdQ/x90", "90", "84"],
+        ["//avatars-fast.yandex.net/get-direct/_DwrSiAYqNSPYmd-dl5hdQ/y90", "96", "90"],
+        ["//avatars-fast.yandex.net/get-direct/_DwrSiAYqNSPYmd-dl5hdQ/x80", "80", "75"],
+        ["//avatars-fast.yandex.net/get-direct/_DwrSiAYqNSPYmd-dl5hdQ/y80", "85", "80"],
+        ["//avatars-fast.yandex.net/get-direct/_DwrSiAYqNSPYmd-dl5hdQ/y150", "160", "150"],
+    ]
+}, {
+    url: "",
     title: "«Посвященный Дню защиты детей»",
     body: "Ищете билеты на концерт «Посвященный Дню защиты детей» 1 июня? От 990 руб.",
     domain: "ticketland.ru",

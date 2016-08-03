@@ -538,7 +538,7 @@ body.yandex-test ::selection { background: #eee; color: #222; }
 
 body.yandex-test { font-family: inherit; }
 
-body.yandex-test .content { margin-top: 36px; }
+body.yandex-test .yad-list { margin-top: 36px; }
 
 body.yandex-test .yad { width: 726px; height: 88px; position: relative; margin: 0 auto 36px; border: 1px solid tomato; }
 
@@ -610,7 +610,19 @@ body.yandex-test .yad-sitelinks { font-size: 14px; line-height: 18px; }
 
 body.yandex-test .yad-sitelinks__link { border-bottom: 1px solid #ffbcae; color: #f55f1f; margin-right: 10px; text-decoration: none; }
 
-body.yandex-test .yad-warning { border: 1px solid #ddd; color: #888; display: inline-block; font-size: 10px; line-height: 14px; padding: 0 3px; position: absolute; top: 10px; right: 10px; max-width: 91px }
+body.yandex-test .yad-warnings { position: absolute; top: 10px; right: 10px; }
+body.yandex-test .yad-warning { max-width: 91px; margin-bottom: 9px; }
+
+body.yandex-test .yad-age { max-width: 19px; position: absolute; right: 0; }
+
+body.yandex-test .yad-warning,
+body.yandex-test .yad-age { border: 1px solid #ddd; color: #888; display: block; font-size: 10px; line-height: 14px; padding: 0 3px; }
+
+body.yandex-test section.some-thoughts { margin: 0 auto; width: 670px; }
+
+body.yandex-test .some-thoughts .heading { font-size: 25.888px; font-size: 1.618rem; letter-spacing: .025em; line-height: 41.887px; line-height: 2.618rem; margin: 67.773px 0 16px; margin: 4.236rem 0 1rem; }
+
+body.yandex-test .some-thoughts p { color: #444; margin: 12.944px 0; margin: .809rem 0; }
 
 /* ==========================================================================
    Helper classes

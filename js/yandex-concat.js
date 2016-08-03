@@ -35,15 +35,21 @@
 				stringOfHtml += '</div>';
 			}
 
+			stringOfHtml += '<div class="yad-warnings">';
+
 			if ( yadItem.warning ) {
 				stringOfHtml += '<div class="yad-warning">' + yadItem.warning + '</div>';
 			}
+
+			if ( yadItem.age ) {
+				stringOfHtml += '<div class="yad-warning">' + yadItem.age + '</div>';
+			}
 			
-			stringOfHtml += '</div></div></div>';
+			stringOfHtml += '</div></div></div></div>';
 		}
 		return stringOfHtml;
 	}
 
 	var yadHtml = yadTemplateConcat(ads);
-	$('.content').append(yadHtml);
+	$('.yad-list').append(yadHtml);
 }());

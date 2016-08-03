@@ -449,6 +449,10 @@ footer h3 { font-size: 18px; font-weight: 400; letter-spacing: .05em; margin: 12
    Стили для тестового задания компании «БизнесАвтоматика»
    ========================================================================== */
 
+body.automatica ::-moz-selection { background: #FF8400; }
+
+body.automatica ::selection { background: #FF8400; }
+
 body.automatica section.book-search { margin: 0 auto; width: 100%; }
 
 body.automatica section.book-search header { position: relative; background: tomato; }
@@ -528,6 +532,10 @@ body.automatica .book__genre:focus { border-bottom-color: transparent; color: #3
 body.yandex-test *:focus { outline:none; }
 body.yandex-test *::-moz-focus-inner { border:0; }
 
+body.yandex-test ::-moz-selection { background: #eee; color: #222; }
+
+body.yandex-test ::selection { background: #eee; color: #222; }
+
 body.yandex-test { font-family: inherit; }
 
 body.yandex-test .content { margin-top: 36px; }
@@ -594,7 +602,7 @@ body.yandex-test .yad-domain::before { content: " "; display: inline-block; widt
 
 body.yandex-test .yad-domain { color: #1ca24b; font-size: 16px; letter-spacing: .025em; line-height: 16px; display: inline-block; font-weight: bold; vertical-align: sub; }
 
-body.yandex-test .yad-body { color: #363537; font-size: 14px; line-height: 14px; }
+body.yandex-test .yad-body { color: #363537; font-size: 14px; line-height: 16px; }
 
 body.yandex-test .yad-image-wrap:empty + .yad-content .yad-body { font-size: 16px; }
 

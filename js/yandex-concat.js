@@ -1,53 +1,53 @@
 (function () {
 	'use strict';
 	function yadTemplateConcat(ads) {
-		var stringOfHtml = '';
+		var htmlString = '';
 		for (var i = 0; i < ads.length; i++) {
 			var yadItem = ads[i];
-			stringOfHtml += '<div class="yad">';
-			stringOfHtml += '<a href="https://direct.yandex.ru/?partner" class="yad-logo">Яндекс.Директ</a>';
-			stringOfHtml += '<div class="yad-wrap">';
+			htmlString += '<div class="yad">';
+			htmlString += '<a href="https://direct.yandex.ru/?partner" class="yad-logo">Яндекс.Директ</a>';
+			htmlString += '<div class="yad-wrap">';
 
-			stringOfHtml += '<figure class="yad-image-wrap">';
+			htmlString += '<figure class="yad-image-wrap">';
 
 			if ( typeof yadItem.images !== 'undefined' && yadItem.images.length > 0 ) {
-				stringOfHtml += '<a class="yad-url" href="' + yadItem.url + '">';
-				stringOfHtml += '<img class="yad-image" src="' + yadItem.images[0][0] + '" width="' + yadItem.images[0][1] + '" height="' + yadItem.images[0][2] + '" alt="Изображение объявления">';
-				stringOfHtml += '</a>';
+				htmlString += '<a class="yad-url" href="' + yadItem.url + '">';
+				htmlString += '<img class="yad-image" src="' + yadItem.images[0][0] + '" width="' + yadItem.images[0][1] + '" height="' + yadItem.images[0][2] + '" alt="Изображение объявления">';
+				htmlString += '</a>';
 			}
 			
-			stringOfHtml += '</figure>';
+			htmlString += '</figure>';
 
-			stringOfHtml += '<div class="yad-content">';
-			stringOfHtml += '<div class="yad-heading">';
-			stringOfHtml += '<h1 class="yad-title"><a class="yad-url" href="' + yadItem.url + '">' + yadItem.title + '</a></h1>';
-			stringOfHtml += '<div class="yad-domain">' + yadItem.domain + '</div>';
-			stringOfHtml += '</div>';
-			stringOfHtml += '<div class="yad-body">' + yadItem.body + '</div>';
+			htmlString += '<div class="yad-content">';
+			htmlString += '<div class="yad-heading">';
+			htmlString += '<h1 class="yad-title"><a class="yad-url" href="' + yadItem.url + '">' + yadItem.title + '</a></h1>';
+			htmlString += '<div class="yad-domain">' + yadItem.domain + '</div>';
+			htmlString += '</div>';
+			htmlString += '<div class="yad-body">' + yadItem.body + '</div>';
 
 			if ( yadItem.sitelinks.length ) {
-				stringOfHtml += '<div class="yad-sitelinks">';
+				htmlString += '<div class="yad-sitelinks">';
 
 				for (var y = 0; y < yadItem.sitelinks.length; y++) {
-					stringOfHtml += '<a href="' + yadItem.sitelinks[y].url + '" class="yad-sitelinks__link">' + yadItem.sitelinks[y].title + '</a>';
+					htmlString += '<a href="' + yadItem.sitelinks[y].url + '" class="yad-sitelinks__link">' + yadItem.sitelinks[y].title + '</a>';
 				}
 
-				stringOfHtml += '</div>';
+				htmlString += '</div>';
 			}
 
-			stringOfHtml += '<div class="yad-warnings">';
+			htmlString += '<div class="yad-warnings">';
 
 			if ( yadItem.warning ) {
-				stringOfHtml += '<div class="yad-warning">' + yadItem.warning + '</div>';
+				htmlString += '<div class="yad-warning">' + yadItem.warning + '</div>';
 			}
 
 			if ( yadItem.age ) {
-				stringOfHtml += '<div class="yad-age">' + yadItem.age + '</div>';
+				htmlString += '<div class="yad-age">' + yadItem.age + '</div>';
 			}
 			
-			stringOfHtml += '</div></div></div></div>';
+			htmlString += '</div></div></div></div>';
 		}
-		return stringOfHtml;
+		return htmlString;
 	}
 
 	var yadHtml = yadTemplateConcat(ads);

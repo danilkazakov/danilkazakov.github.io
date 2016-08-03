@@ -540,6 +540,12 @@ body.yandex-test { font-family: inherit; }
 
 body.yandex-test .yad-list { margin-top: 36px; }
 
+body.yandex-test .yad-list__heading { text-align: center; }
+
+body.yandex-test .yad-list_arial { font-family: Arial !important; }
+
+body.yandex-test .yad-list_helvetica { font-family: Helvetica !important; }
+
 body.yandex-test .yad { width: 726px; height: 88px; position: relative; margin: 0 auto 36px; border: 1px solid tomato; }
 
 body.yandex-test .yad-logo { position: absolute; font-size: 12px; top: -16px; line-height: 1; color: #777; text-decoration: none; }

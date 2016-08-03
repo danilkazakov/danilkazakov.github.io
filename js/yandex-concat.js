@@ -51,5 +51,5 @@
 	}
 
 	var yadHtml = yadTemplateConcat(ads);
-	$('.yad-list').append(yadHtml);
+	$('.yad-list__content').append(yadHtml);
 }());

@@ -570,7 +570,7 @@ body.yandex-test .yad-title { font-size: 18px; margin: 0; line-height: 18px; fon
 
 body.yandex-test .yad-image-wrap:empty + .yad-content .yad-title { font-size: 18px; }
 
-body.yandex-test .yad-title a.yad-url { text-decoration: none; color: tomato; border-bottom: 1px solid #ffaa99; }
+body.yandex-test .yad-title a.yad-url { text-decoration: none; color: tomato; border-bottom: 1px solid #ff9c9c; }
 
 body.yandex-test .yad-title a.yad-url,
 body.yandex-test .yad-sitelinks__link { transition-property: border-color, color; }
@@ -578,19 +578,19 @@ body.yandex-test .yad-sitelinks__link { transition-property: border-color, color
 body.yandex-test .yad-title a.yad-url:hover,
 body.yandex-test .yad-title a.yad-url:focus,
 body.yandex-test .yad-sitelinks__link:hover,
-body.yandex-test .yad-sitelinks__link:focus { border-color: transparent; color: maroon; }
+body.yandex-test .yad-sitelinks__link:focus { border-color: transparent; color: #a20000; }
 
 body.yandex-test .yad-domain::before { content: " "; display: inline-block; width: 14px; }
 
-body.yandex-test .yad-domain { color: maroon; font-size: 16px; font-weight: 600; letter-spacing: .025em; line-height: 16px; display: inline-block; vertical-align: middle; }
+body.yandex-test .yad-domain { color: #18c16a; font-size: 16px; letter-spacing: .025em; line-height: 16px; display: inline-block; vertical-align: middle; }
 
-body.yandex-test .yad-body { color: #222; font-size: 14px; line-height: 16px; }
+body.yandex-test .yad-body { color: #363537; font-size: 14px; line-height: 14px; }
 
 body.yandex-test .yad-image-wrap:empty + .yad-content .yad-body { font-size: 16px; }
 
 body.yandex-test .yad-sitelinks { font-size: 14px; line-height: 18px; }
 
-body.yandex-test .yad-sitelinks__link { border-bottom: 1px solid #ffbcae; color: tomato; margin-right: 10px; text-decoration: none; }
+body.yandex-test .yad-sitelinks__link { border-bottom: 1px solid #ffbcae; color: #f55f1f; margin-right: 10px; text-decoration: none; }
 
 body.yandex-test .yad-warning { border: 1px solid #ddd; color: #888; display: inline-block; font-size: 10px; line-height: 14px; padding: 0 3px; position: absolute; top: 10px; right: 10px; max-width: 91px }
 

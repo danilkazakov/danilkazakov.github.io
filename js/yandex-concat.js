@@ -9,14 +9,16 @@
 			stringOfHtml += '<div class="yad-wrap">';
 
 			if ( typeof yadItem.images !== 'undefined' && yadItem.images.length > 0 ) {
-				stringOfHtml += '<figure class="yad-image-wrap">';
+				stringOfHtml += '<figure class="yad-image-wrap"><a class="yad-url" href="' + yadItem.url + '">';
 				stringOfHtml += '<img class="yad-image" src="' + yadItem.images[0][0] + '" width="' + yadItem.images[0][1] + '" height="' + yadItem.images[0][2] + '" alt="Изображение объявления">';
-				stringOfHtml += '</figure>';
+				stringOfHtml += '</a></figure>';
 			}
 
 			stringOfHtml += '<div class="yad-content">';
+			stringOfHtml += '<div class="yad-heading">';
 			stringOfHtml += '<h1 class="yad-title"><a class="yad-url" href="' + yadItem.url + '">' + yadItem.title + '</a></h1>';
 			stringOfHtml += '<div class="yad-domain">' + yadItem.domain + '</div>';
+			stringOfHtml += '</div>';
 			stringOfHtml += '<div class="yad-body">' + yadItem.body + '</div>';
 
 			if ( yadItem.sitelinks.length ) {
@@ -30,7 +32,7 @@
 			}
 
 			if ( yadItem.warning ) {
-				stringOfHtml += '<div class="yad-warning">' + yadItem.warning + '</div>';
+				stringOfHtml += '<div class="yad-warning-wrap"><div class="yad-warning">' + yadItem.warning + '</div></div>';
 			}
 			
 			stringOfHtml += '</div></div></div>';

@@ -618,7 +618,7 @@ body.yandex-test .yad-age { max-width: 19px; position: absolute; right: 0; }
 body.yandex-test .yad-warning,
 body.yandex-test .yad-age { border: 1px solid #ddd; color: #888; display: block; font-size: 10px; line-height: 14px; padding: 0 3px; }
 
-body.yandex-test section.some-thoughts { margin: 0 auto; width: 670px; }
+body.yandex-test section.some-thoughts { margin: 0 auto 67.773px; margin: 0 auto 4.236rem; width: 670px; }
 
 body.yandex-test .some-thoughts .heading { font-size: 25.888px; font-size: 1.618rem; letter-spacing: .025em; line-height: 41.887px; line-height: 2.618rem; margin: 67.773px 0 16px; margin: 4.236rem 0 1rem; }
 

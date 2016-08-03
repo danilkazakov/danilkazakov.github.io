@@ -119,7 +119,22 @@ var ads = [{
     domain: "ticketland.ru",
     workingTime: "пн-вс 9:00-21:00",
     telNum: "+7 (495) 937-77-37",
-    age: "18+",
+    age: "",
+    warning: "",
+    sitelinks: [
+        { title: "1 июня, 14:00", url: "" },
+        { title: "Центр Павла Слободкина", url: "" },
+        { title: "Билеты от 990 до 1210 руб.", url: "" },
+    ]
+}];
+, {
+    url: "",
+    title: "«Посвященный Дню защиты детей»",
+    body: "Ищете билеты на концерт «Посвященный Дню защиты детей» 1 июня? От 990 руб.",
+    domain: "ticketland.ru",
+    workingTime: "пн-вс 9:00-21:00",
+    telNum: "+7 (495) 937-77-37",
+    age: "+3",
     warning: "",
     sitelinks: [
         { title: "1 июня, 14:00", url: "" },

@@ -42,7 +42,7 @@
 			}
 
 			if ( yadItem.age ) {
-				stringOfHtml += '<div class="yad-warning">' + yadItem.age + '</div>';
+				stringOfHtml += '<div class="yad-age">' + yadItem.age + '</div>';
 			}
 			
 			stringOfHtml += '</div></div></div></div>';

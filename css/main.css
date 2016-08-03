@@ -525,6 +525,9 @@ body.automatica .book__genre:focus { border-bottom-color: transparent; color: #3
    Стили для тестового задания «Яндекса»
    ========================================================================== */
 
+body.yandex-test *:focus { outline:none; }
+body.yandex-test *::-moz-focus-inner { border:0; }
+
 body.yandex-test { font-family: inherit; }
 
 body.yandex-test .content { margin-top: 36px; }
@@ -539,7 +542,17 @@ body.yandex-test .yad-image-wrap { width: 90px; height: 88px; margin: 0; vertica
 
 body.yandex-test .yad-image-wrap:empty { display: none; }
 
-body.yandex-test .yad-image-wrap a.yad-url { display: table-cell; vertical-align: middle; height: 88px; width: 90px; }
+body.yandex-test .yad-image-wrap a.yad-url { display: table-cell; vertical-align: middle; height: 88px; width: 90px; transition-property: opacity; }
+
+body.yandex-test .yad-image-wrap a.yad-url:hover,
+body.yandex-test .yad-image-wrap a.yad-url:focus { opacity: .5; }
+
+body.yandex-test .yad-image-wrap a.yad-url,
+body.yandex-test .yad-title a.yad-url,
+body.yandex-test .yad-sitelinks__link {
+  transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); 
+  transition-duration: .15s,
+}
 
 body.yandex-test .yad-image { max-height: 85%; width: auto; }
 
@@ -557,6 +570,14 @@ body.yandex-test .yad-title { font-size: 16px; margin: 0; line-height: 18px; fon
 
 body.yandex-test .yad-title a.yad-url { text-decoration: none; color: tomato; border-bottom: 1px solid #ffaa99; }
 
+body.yandex-test .yad-title a.yad-url,
+body.yandex-test .yad-sitelinks__link { transition-property: border-color, color; }
+
+body.yandex-test .yad-title a.yad-url:hover,
+body.yandex-test .yad-title a.yad-url:focus,
+body.yandex-test .yad-sitelinks__link:hover,
+body.yandex-test .yad-sitelinks__link:focus { border-color: transparent; color: maroon; }
+
 body.yandex-test .yad-domain::before { content: " "; display: inline-block; width: 14px; }
 
 body.yandex-test .yad-domain { color: maroon; font-size: 16px; font-weight: 600; letter-spacing: .025em; line-height: 16px; display: inline-block; }
@@ -565,7 +586,7 @@ body.yandex-test .yad-domain { color: maroon; font-size: 16px; font-weight: 600;
 
 body.yandex-test .yad-sitelinks { font-size: 14px; line-height: 18px; }
 
-body.yandex-test .yad-sitelinks__link { border-bottom: 1px solid #ffbcae; color: tomato; margin-right: 5px; text-decoration: none; }
+body.yandex-test .yad-sitelinks__link { border-bottom: 1px solid #ffbcae; color: tomato; margin-right: 10px; text-decoration: none; }
 
 body.yandex-test .yad-warning { border: 1px solid #ddd; color: #888; display: inline-block; font-size: 10px; line-height: 14px; padding: 0 3px; position: absolute; top: 9px; right: 11px; }
 

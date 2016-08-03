@@ -537,11 +537,15 @@ body.yandex-test .yad-wrap::after { display: block; content: " "; clear: both; }
 
 body.yandex-test .yad-image-wrap { width: 90px; height: 88px; margin: 0; vertical-align: middle; text-align: center; display: table-cell; padding-left: 10px; float: left; }
 
+body.yandex-test .yad-image-wrap:empty { display: none; }
+
 body.yandex-test .yad-image-wrap a.yad-url { display: table-cell; vertical-align: middle; height: 88px; width: 90px; }
 
 body.yandex-test .yad-image { max-height: 85%; width: auto; }
 
 body.yandex-test .yad-content { margin-left: 10px; height: 88px; display: table; float: left; min-width: 616px; position: relative; }
+
+body.yandex-test .yad-image-wrap:empty + .yad-content { width: 708px; margin-left: 18px; }
 
 body.yandex-test .yad-heading { height: 36px; }
 
@@ -551,7 +555,7 @@ body.yandex-test .yad-sitelinks { display: table-row; }
 
 body.yandex-test .yad-title { font-size: 16px; margin: 0; line-height: 18px; font-weight: 400; display: inline-block; }
 
-body.yandex-test .yad-title a.yad-url { text-decoration: none; color: tomato; border: 1px solid #ffaa99; }
+body.yandex-test .yad-title a.yad-url { text-decoration: none; color: tomato; border-bottom: 1px solid #ffaa99; }
 
 body.yandex-test .yad-domain::before { content: " "; display: inline-block; width: 14px; }
 

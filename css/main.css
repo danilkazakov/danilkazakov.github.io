@@ -551,7 +551,7 @@ body.yandex-test .yad-image-wrap a.yad-url,
 body.yandex-test .yad-title a.yad-url,
 body.yandex-test .yad-sitelinks__link {
   transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1); 
-  transition-duration: .15s,
+  transition-duration: .15s;
 }
 
 body.yandex-test .yad-image { max-height: 85%; width: auto; }
@@ -568,6 +568,8 @@ body.yandex-test .yad-sitelinks { display: table-row; }
 
 body.yandex-test .yad-title { font-size: 16px; margin: 0; line-height: 18px; font-weight: 400; display: inline-block; }
 
+body.yandex-test .yad-image-wrap:empty + .yad-content .yad-title { font-size: 18px; letter-spacing: .009em; }
+
 body.yandex-test .yad-title a.yad-url { text-decoration: none; color: tomato; border-bottom: 1px solid #ffaa99; }
 
 body.yandex-test .yad-title a.yad-url,
@@ -582,7 +584,9 @@ body.yandex-test .yad-domain::before { content: " "; display: inline-block; widt
 
 body.yandex-test .yad-domain { color: maroon; font-size: 16px; font-weight: 600; letter-spacing: .025em; line-height: 16px; display: inline-block; }
 
-.yad-body { color: #222; font-size: 14px; line-height: 16px; }
+body.yandex-test .yad-body { color: #222; font-size: 14px; line-height: 16px; }
+
+body.yandex-test .yad-image-wrap:empty + .yad-content .yad-body { font-size: 16px; }
 
 body.yandex-test .yad-sitelinks { font-size: 14px; line-height: 18px; }
 

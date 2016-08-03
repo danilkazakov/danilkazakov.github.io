@@ -36,7 +36,7 @@
 			}
 
 			if ( yadItem.warning ) {
-				stringOfHtml += '<div class="yad-warning-wrap"><div class="yad-warning">' + yadItem.warning + '</div></div>';
+				stringOfHtml += '<div class="yad-warning">' + yadItem.warning + '</div>';
 			}
 			
 			stringOfHtml += '</div></div></div>';

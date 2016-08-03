@@ -8,11 +8,15 @@
 			stringOfHtml += '<a href="https://direct.yandex.ru/?partner" class="yad-logo">Яндекс.Директ</a>';
 			stringOfHtml += '<div class="yad-wrap">';
 
+			stringOfHtml += '<figure class="yad-image-wrap">';
+
 			if ( typeof yadItem.images !== 'undefined' && yadItem.images.length > 0 ) {
-				stringOfHtml += '<figure class="yad-image-wrap"><a class="yad-url" href="' + yadItem.url + '">';
+				stringOfHtml += '<a class="yad-url" href="' + yadItem.url + '">';
 				stringOfHtml += '<img class="yad-image" src="' + yadItem.images[0][0] + '" width="' + yadItem.images[0][1] + '" height="' + yadItem.images[0][2] + '" alt="Изображение объявления">';
-				stringOfHtml += '</a></figure>';
+				stringOfHtml += '</a>';
 			}
+			
+			stringOfHtml += '</figure>';
 
 			stringOfHtml += '<div class="yad-content">';
 			stringOfHtml += '<div class="yad-heading">';
@@ -29,10 +33,6 @@
 				}
 
 				stringOfHtml += '</div>';
-			}
-
-			if ( yadItem.warning ) {
-				stringOfHtml += '<div class="yad-warning-wrap"><div class="yad-warning">' + yadItem.warning + '</div></div>';
 			}
 			
 			stringOfHtml += '</div></div></div>';
